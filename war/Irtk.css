@@ -1,0 +1,181 @@
+/** Add css rules here for your application. */
+.gwt-DecoratedTabPanel { 
+	color: #008000;
+	border: 0px;
+		}
+
+.gwt-DecoratorPanel .topCenter,
+.gwt-DecoratorPanel .bottomCenter {
+  background: green;
+}
+
+.gwt-Anchor {
+	color: green; 
+}
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+  border-color: #6699FF;
+}
+.gwt-Button {
+ margin: 0;
+ padding: 3px 5px;
+ text-decoration: none;
+ font-size: small;
+ cursor: pointer;
+ cursor: hand;
+ background: url("images/button.png") repeat-x 0px -27px;
+ border: 1px outset #ccc;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+html .fb_share_button {
+	display: -moz-inline-block;
+	display:inline-block;
+	padding:1px 20px 0 5px;
+	height:15px;
+	border:1px solid #d8dfea;
+	background:url(http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif?8:26981) no-repeat top right;
+	text-decoration: none;
+}
+html .fb_share_button:hover {
+	color:#fff;
+	border-color:#295582;
+	background:#3b5998 url(http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif?8:26981) no-repeat top right;
+	text-decoration:none;
+}
+
+.gwt-SliderBar-shell {
+  border: 2px solid #faf9f7;
+  border-right: 2px solid #848280;
+  border-bottom: 2px solid #848280;
+  background-color: #efebe7;
+  height: 34pt;
+  width: 50%;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-line {
+  border: 1px solid black;
+  background-color: white;
+  height: 4px;
+  width: 95%;
+  top: 22pt;
+  overflow: hidden;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-knob {
+  top: 14pt;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-tick {
+  top: 12pt;
+  width: 1px;
+  height: 8pt;
+  background: black;
+  overflow: hidden;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-label {
+  top: 2pt;
+  font-size: 8pt;
+  cursor: default;
+}
+.gwt-SliderBar-shell-focused {
+}
+.gwt-SliderBar-shell .gwt-SliderBar-line-sliding {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
+.gwt-Label-Heading {
+	color: navy;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+}
+.gwt-ListBox-Goal {
+	color: navy;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.gwt-Label-Table {
+	color: navy;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.gwt-irelaxa-Button { 
+	font-size: 60%; 
+	color: green;
+	}
+.gwt-date-Button { 
+	font-size: 200%; 
+	}
+	
+.gwt-Heading-Anchor { 
+	font-size: 60%; 
+	}
+
+.gwt-irelaxa-TabPanel {
+  margin-top: 0px;
+}
+
+.gwt-irelaxa-TabPanelBottom {
+  background-color: #E8E8E8;
+}
+
+.gwt-irelaxa-TabBar {
+  padding-top: 2px;
+  border-bottom: 0px solid #878787;
+  background-color: #fff;
+}
+
+.gwt-irelaxa-TabBarItem {
+  padding: 0px;
+  cursor: pointer;
+  background-color: #e8e8e8;
+  border-bottom: 0px solid white;
+  margin-right: 2px;
+}
+
+.gwt-irelaxa-TabBarItem-selected {
+  padding: 4px;
+  font-weight: bold;
+  cursor: default;
+
+  background-color: #878787;
+  border-bottom: 0px solid #87ffff;
+  margin-right: 2px;
+}
+         

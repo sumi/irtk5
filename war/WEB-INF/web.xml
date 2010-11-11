@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <servlet>
+    <servlet-name>loginService</servlet-name>
+    <servlet-class>com.irelaxa.irtk.server.LoginServiceImpl</servlet-class>
+  </servlet>
+
+
+<servlet>
+    <servlet-name>stockService</servlet-name>
+    <servlet-class>com.irelaxa.irtk.server.StockServiceImpl</servlet-class>
+    	<init-param>   
+                             <param-name>PPAPIUsername</param-name>   
+                             <param-value>sumi00_1279146496_biz_api1.gmail.com</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAPIPassword</param-name>   
+                             <param-value>1279146500</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAPISignature</param-name>   
+                             <param-value>AcxH3fObvAA9M5VKgDn5zRUiVVdlAqPjAgUR1p4WZXI5eReUHLCGFR0h</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAppID</param-name>   
+                             <param-value>APP-80W284485P519543T</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAccountEmail</param-name>   
+                             <param-value>sumi00_1279146496_biz@gmail.com</param-value>   
+          </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>loginService</servlet-name>
+    <url-pattern>/irtk/login</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+
+ <servlet-mapping>
+    <servlet-name>stockService</servlet-name>
+    <url-pattern>/irtk/stock</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Irtk.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

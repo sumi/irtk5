@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/gwt-visualization-1.1.0/gwt-visualization.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/PayPalXGAEToolkit-0.1-dev.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gdata-core-1.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gdata-photos-2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/gwt-incubator-20100204-r1747.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/gwt-search-1.1.0/gwt-search.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/smartgwt-2.2/smartgwt.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/smartgwt-2.2/smartgwt-skins.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/PayPal_Platform_Java_SDK/lib/paypal_platform_base_AA.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/PayPal_Platform_Java_SDK/lib/paypal_platform_base_AP.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/PayPal_Platform_Java_SDK/lib/paypal_platform_stubs_AA.jar"/>
+	<classpathentry kind="lib" path="/Users/sumi/Downloads/PayPal_Platform_Java_SDK/lib/paypal_platform_stubs_AP.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
